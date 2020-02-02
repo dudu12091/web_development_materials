@@ -18,13 +18,13 @@
 
 ## 工具  
 
->后端  
+>后端:  
 Python & Flask & SQL  
 
->前端  
+>前端:   
 Css & javascript & html  
 
->手机APP  
+>手机APP:   
 Android studio ?     
 纯网站开发/混合开发   
 
