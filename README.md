@@ -73,11 +73,11 @@ Alen Betty：背景 风险规划 整合文档 受众 调查问卷 分析 文献
 
 ### 1st_meeting
 
->none
+>第一次会议记录在上方的 1st meeting record.docx 文件中
 
 ### 2nd_meeting
 
->第二次会议记录记录在2nd meeting.docx文件里  
+>第二次会议记录记录在上方的2nd meeting.docx文件里  
  
 
 >下次开会  
