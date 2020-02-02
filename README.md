@@ -8,8 +8,8 @@
 - [后端学习资料](#后端学习资料)
 - [前端学习资料](#前端学习资料)
 - [会议记录](#会议记录)
-	- [1st meeting](#1st meeting)
-	- [2nd meeting](#2nd meeting)
+	- [1st_meeting](#1st_meeting)
+	- [2nd_meeting](#2nd_meeting)
 - [Badge](#badge)
 - [Example Readmes](#example-readmes)
 - [Related Efforts](#related-efforts)
@@ -45,11 +45,11 @@
 
 
 
-### 1st meeting
+### 1st_meeting
 
 To use the generator, look at [generator-standard-readme](https://github.com/RichardLitt/generator-standard-readme). There is a global executable to run the generator in that package, aliased as `standard-readme`.
 
-### 2nd meeting
+### 2nd_meeting
 
 To use the generator, look at [generator-standard-readme](https://github.com/RichardLitt/generator-standard-readme). There is a global executable to run the generator in that package, aliased as `standard-readme`
 
