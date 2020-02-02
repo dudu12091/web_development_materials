@@ -73,15 +73,17 @@ Alen Betty：背景 风险规划 整合文档 受众 调查问卷 分析 文献
 
 ### 1st_meeting
 
->第一次会议记录在上方的 1st meeting record.docx 文件中
+>Documented by Toby  
+第一次会议记录在上方的 1st meeting record.docx 文件中  
 
 ### 2nd_meeting
 
->第二次会议记录记录在上方的2nd meeting.docx文件里  
+>Documented by Betty  
+第二次会议记录记录在上方的2nd meeting.docx文件里   
  
 
 >下次开会  
-先准备开始requirement 文档 下次开会交 再调换部分  
+先准备开始requirement 文档 下次开会交 再调换部分    
 
 
 
