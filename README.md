@@ -7,8 +7,9 @@
 
 - [后端学习资料](#后端学习资料)
 - [前端学习资料](#前端学习资料)
-- [Usage](#usage)
-	- [Generator](#generator)
+- [会议记录](#会议记录)
+	- [1st meeting](#1st meeting)
+	- [2nd meeting](#2nd meeting)
 - [Badge](#badge)
 - [Example Readmes](#example-readmes)
 - [Related Efforts](#related-efforts)
@@ -22,44 +23,35 @@
 		flask 快速入门教程 : https://www.youtube.com/watch?v=RWviEK1Si68&list=PLDFBYdF-BxV1G4FBpG1EMyFtbsbZuJOvD
 	
 >Bruce的学习资料:
-		
-
-
+		none
 
 
 ## 前端学习资料
 
 >Toby的学习资料:
-
+		none
 
 >Park的学习资料:
-
+		none
 
 >Betty的学习资料:
-
+		none
 
 >Alen的学习资料:
+		none
+
+
+## 会议记录
 
 
 
-This project uses [node](http://nodejs.org) and [npm](https://npmjs.com). Go check them out if you don't have them locally installed.
-
-```sh
-$ npm install --global standard-readme-spec
-```
-
-## Usage
-
-This is only a documentation package. You can print out [spec.md](spec.md) to your console:
-
-```sh
-$ standard-readme-spec
-# Prints out the standard-readme spec
-```
-
-### Generator
+### 1st meeting
 
 To use the generator, look at [generator-standard-readme](https://github.com/RichardLitt/generator-standard-readme). There is a global executable to run the generator in that package, aliased as `standard-readme`.
+
+### 2nd meeting
+
+To use the generator, look at [generator-standard-readme](https://github.com/RichardLitt/generator-standard-readme). There is a global executable to run the generator in that package, aliased as `standard-readme`
 
 ## Badge
 
