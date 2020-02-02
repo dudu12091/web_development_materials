@@ -1,7 +1,5 @@
 # web_development_materials
-
-
-后端学习资料:
+(1)后端学习资料:
 
 Sherlock的学习资料:
 
@@ -19,7 +17,6 @@ Toby的学习资料:
 Park的学习资料:
 
 
-
 Betty的学习资料:
 
   	IBM垃圾分类API : https://github.com/IBM/watson-waste-sorter
@@ -27,3 +24,8 @@ Betty的学习资料:
 Alen的学习资料
 
 
+(2)会议记录
+
+2n merting主要做了任务分配
+			
+	
