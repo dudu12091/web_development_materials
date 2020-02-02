@@ -52,11 +52,16 @@
 
 ### 1st_meeting
 
-To use the generator, look at [generator-standard-readme](https://github.com/RichardLitt/generator-standard-readme). There is a global executable to run the generator in that package, aliased as `standard-readme`.
+>none
 
 ### 2nd_meeting
 
-To use the generator, look at [generator-standard-readme](https://github.com/RichardLitt/generator-standard-readme). There is a global executable to run the generator in that package, aliased as `standard-readme`
+>第二次会议记录记录在2nd meeting.docx文件里  
+任务分配：  
+两人一组 调换任务 检查补充  
+Alen Betty：背景 风险规划 整合文档 受众 调查问卷 分析 文献  
+强强 栋栋：画图：各种图 use case ; boundary; data-flow; ER 图  
+托比 倍倍：文字描述：用户需求 功能与非功能需求 系统描述 事务需求  
 
 
 
