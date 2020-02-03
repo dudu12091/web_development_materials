@@ -158,7 +158,6 @@ Trash公司发现，很多回收的垃圾没有被正确的分类。导致这一
 		User(username, password, email)  
 		Constrains：   
 		username 和 email必须唯一。Primary Key (用户的账号名不能重复，用户的邮箱不能重复)
-		house_address可以为null(只有当用户提出申请垃圾服务时，我们才让他输入地址)
 
 >2.员工系统  
 员工系统为 经理(Manager) 和 司机(Driver)设计。该系统通过网站(如:www.staff.com)暴露给员工。员工通过该系统能够做:  
