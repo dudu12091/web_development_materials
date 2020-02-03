@@ -57,10 +57,13 @@ Android studio ?
 >Toby的学习资料:
 
 		谷歌地图API: https://www.runoob.com/googleapi/google-maps-api-key.html
+		JavaScript教程: https://www.w3school.com.cn/js/index.asp
+		CSS教程: https://www.w3school.com.cn/css/index.asp
+		HTML教程: https://www.w3school.com.cn/html/html_layout.asp
 
 >Park的学习资料:
 		
-		none
+		
 
 >Betty的学习资料:
 		
