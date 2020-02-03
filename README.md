@@ -141,11 +141,59 @@ Trash公司发现，很多回收的垃圾没有被正确的分类。导致这一
 
 >Sherlock's  proposal:  
 我们设计的系统有两个子系统组成: 用户系统 和 员工系统。用户系统应该与员工系统相互独立。    
-1.用户系统  
-	
+>1.用户系统  
+用户系统为用户(User)设计。该系统通过网站(如:www.user.com)的形式暴露给用户。用户通过该系统后能做的task有:  
 
+		(a)注册
+		(b)找回密码
+		(c)登录  
+		登录后的功能有  
+		(d)申请Trash公司的垃圾管理服务[填写联系方式，公寓地址] [申请后等待Trash公司经理的约谈]  
+		(f)向Trash公司发送 收垃圾 请求 (只有当签完合同后才有这个页面)
+		(g)垃圾分类
+		(h)附近的垃圾公共站点查询[我觉得这个有点很Trahs公司的目的不相符]
+		
+		
+		用户系统的数据库schema:  
+		User(username, password, email)  
+		Constrains：   
+		username 和 email必须唯一。Primary Key (用户的账号名不能重复，用户的邮箱不能重复)
+		house_address可以为null(只有当用户提出申请垃圾服务时，我们才让他输入地址)
 
+>2.员工系统  
+员工系统为 经理(Manager) 和 司机(Driver)设计。该系统通过网站(如:www.staff.com)暴露给员工。员工通过该系统能够做:  
+		
+		Manager:
+		(a)登录
+		(b)忘记密码
+		登录成功后
+		(c)查看是否有用户申请垃圾管理服务。 
+		[如果有 Manager应该撰写初期合同， 与用户约谈，签订合同]     
+		[谈话过程中，用户需要提供自己的垃圾场地址，以及自己需要多长时间的服务].    
+		
+		(d)根据合同向Service数据库中输入信息。  
+		
+		Driver:  
+		(a)登录
+		(b)忘记密码后
+		登录成功后:
+		(c)查看自己的任务  [路径规划]
+		(d)每清理完一会，点击Finished
 
+		员工系统的数据库schema:
+		Manager(StaffID, name, telephine, email)   
+		Driver(StaffID, name, telephone, email)   
+		Service(ServiceID, username, wasteyard_address, lastTimeClean, require?, timeDDL)   
+		Service数据库解释:  
+		ServiceID: Primary Key 唯一性  
+		username: 用户账号的名字. Foreign Key from User database. 可以重复(一个用户可能有多个house需要提供服务)  
+		wasteyard_address: 用户的垃圾场地址。  
+		lastTimeClean:上一次清理的事件  
+		require?: 用户是否请求清理  
+		timeDDL:我们的服务截止日期。
+		
+		
+		
 
 ## License
 
